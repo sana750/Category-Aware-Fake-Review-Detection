@@ -14,8 +14,6 @@ final_distilbert_fake_review/
 # Notebook and editor-generated files
 .ipynb_checkpoints/
 
-# Dataset and generated result files
-/data/
 /english_category_aware_results.csv
 
 # Trained model artifacts
