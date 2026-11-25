@@ -1,0 +1,31 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+saved_results/
+distilbert_fake_review/
+final_distilbert_fake_review/
+
+# Local secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Notebook and editor-generated files
+.ipynb_checkpoints/
+
+# Dataset and generated result files
+/data/
+/english_category_aware_results.csv
+
+# Trained model artifacts
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.bin
+*.safetensors
+
+# Operating system files
+.DS_Store
+Thumbs.db
